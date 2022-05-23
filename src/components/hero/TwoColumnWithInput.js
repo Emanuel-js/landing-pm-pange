@@ -53,7 +53,7 @@ export default ({ roundedHeaderButton }) => {
         <TwoColumn>
           <LeftColumn>
             <Heading>
-             Easily Project Management Software <span tw="text-primary-500">for you.</span>
+            Powerful Project Management Software <span tw="text-primary-500">For You.</span>
             </Heading>
             <Paragraph>
               you can track and manage your project easily from anywhere and anytime.
