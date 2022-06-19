@@ -53,19 +53,12 @@ export default ({ roundedHeaderButton }) => {
         <TwoColumn>
           <LeftColumn>
             <Heading>
-            Powerful Project Management Software <span tw="text-primary-500">For You.</span>
+            Experience A Better <span tw="text-primary-500">Tomorrow.</span>
             </Heading>
-            <Paragraph>
+            {/* <Paragraph>
               you can track and manage your project easily from anywhere and anytime.
-            </Paragraph>
-            {/* <Actions>
-              <input type="text" placeholder="Your E-mail Address" />
-              <button>Get Started</button>
-            </Actions> */}
-            {/* <CustomersLogoStrip>
-              <p>Our TRUSTED Customers</p>
-              <img src={CustomersLogoStripImage} alt="Our Customers" />
-            </CustomersLogoStrip> */}
+            </Paragraph> */}
+           
           </LeftColumn>
           <RightColumn>
             <IllustrationContainer>

@@ -72,7 +72,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
    */
   const defaultLinks = [
     <NavLinks key={1}>
-      <NavLink href="/#">Project Mgt.</NavLink>
+      <NavLink href="http://localhost:3000/login">Project Mgt.</NavLink>
       <NavLink href="/#">HR</NavLink>
       <NavLink href="/#">Budget</NavLink>
       <NavLink href="/#">Inventory</NavLink>
@@ -115,11 +115,6 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
   );
 };
 
-/* The below code is for generating dynamic break points for navbar.
- * Using this you can specify if you want to switch
- * to the toggleable mobile navbar at "sm", "md" or "lg" or "xl" above using the collapseBreakpointClass prop
- * Its written like this because we are using macros and we can not insert dynamic variables in macros
- */
 
 const collapseBreakPointCssMap = {
   sm: {

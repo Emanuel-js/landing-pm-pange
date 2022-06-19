@@ -58,26 +58,20 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
   ${tw`pointer-events-none absolute right-0 bottom-0 w-64 opacity-25 transform translate-x-32 translate-y-48 `}
 `;
 
-export default ({ cards = null, heading = "Amazing Features", subheading = "Features", description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." }) => {
-  /*
-   * This componets has an array of object denoting the cards defined below. Each object in the cards array can have the key (Change it according to your need, you can also add more objects to have more cards in this feature component) or you can directly pass this using the cards prop:
-   *  1) imageSrc - the image shown at the top of the card
-   *  2) title - the title of the card
-   *  3) description - the description of the card
-   *  If a key for a particular card is not provided, a default value is used
-   */
+export default ({ cards = null, heading = "Amazing Features", subheading = "Features", description = "" }) => {
 
   const defaultCards = [
     {
       imageSrc: ShieldIconImage,
-      title: "Secure",
-      description: "We strictly only deal with vendors that provide top notch security."
+      title: "Backup",
     },
-    { imageSrc: SupportIconImage, title: "24/7 Support" },
-    { imageSrc: CustomizeIconImage, title: "Customizable" },
-    { imageSrc: ReliableIconImage, title: "Reliable" },
-    { imageSrc: FastIconImage, title: "Fast" },
-    { imageSrc: SimpleIconImage, title: "Easy" }
+    { imageSrc: SupportIconImage, title: "Real-time " },
+    { imageSrc: CustomizeIconImage, title: "Smooth accounting" },
+    { imageSrc: ReliableIconImage, title: "Help and support" },
+    { imageSrc: FastIconImage, title: "Data analysis" },
+    { imageSrc: SimpleIconImage, title: "Mobile support" }
+
+    
   ];
 
   if (!cards) cards = defaultCards;
@@ -97,9 +91,9 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
               </span>
               <span className="textContainer">
                 <span className="title">{card.title || "Fully Secure"}</span>
-                <p className="description">
+                {/* <p className="description">
                   {card.description || "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."}
-                </p>
+                </p> */}
               </span>
             </Card>
           </Column>

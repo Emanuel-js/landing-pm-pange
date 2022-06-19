@@ -63,11 +63,11 @@ export default ({
       description: "Create an account with us using your email or phone"
     },
     {
-      heading: "activate",
-      description: "Activate by Admin."
+      heading: "Log In",
+      description: "Log in to the software website."
     },
     {
-      heading: "be productive",
+      heading: "Explore Your Role Functionalities",
       description: "You can start your project."
     }
   ];
